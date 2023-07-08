@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    padding: 5vh;
+    font-family: inter;
+}
+.master{
+    margin: 5vh;
+}
+.header{
+    display: flex;
+    margin: 10px;
+}
+.logo{
+    margin: 5vh;
+}
+.links{
+    margin-left: 60%;
+    display: flex;
+    justify-content: space-between;   
+} 
+ul {
+    float: right;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    gap: 10%; 
+}
+a{
+    text-decoration: none;
+    color: hsl(233, 8%, 79%);
+}
+.container1{    
+    display: grid;
+    grid-template-columns: repeat(3, 33.33333%);
+    grid-template-areas: "one one two" "three four two" "five six seven";
+}
+.one{
+    margin: 10px;
+    grid-area: one;
+}
+.one img{
+    height: 100%;
+    width: 100%;
+}
+.two{
+    margin: 10px;
+    grid-area: two;
+    padding: 0px;
+    background-color: hsl(240, 100%, 5%);
+    color: hsl(36, 100%, 99%);
+}
+.two1{
+    margin: 20px;
+    padding: 20px;
+}
+.three{
+    font-weight: bolder;
+    margin: 10px;
+    color: hsl(240, 100%, 5%);
+    grid-area: three;
+}
+.four{
+    margin: 10px;
+    grid-area: four;
+}
+.five{
+    margin: 10px;
+    grid-area: five;
+    display: flex;
+}
+.six{
+    margin: 10px;
+    grid-area: six;
+    display: flex;
+}
+.seven{
+    margin: 10px;
+    grid-area: seven;
+    display: flex;
+}
+.two h1{
+    margin-bottom: 5vh;
+    color: hsl(35, 77%, 62%);
+}
+hr{
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+.four p{
+    padding: 10px;
+}
+.button{
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    height: 5vh;
+    width: 25vh;
+    letter-spacing: 1vh;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    /* font-size: 3vh; */
+    background-color: hsl(5, 85%, 63%);
+    color: hsl(36, 100%, 99%);
+}
+.five1 h1{
+    margin: 10px;
+    color: hsl(236, 13%, 42%);
+}
+.five1 h2{
+    margin: 10px;
+    color: hsl(240, 100%, 5%);
+    
+}
+.five1 p{
+    margin: 10px;
+    color: hsl(236, 13%, 42%);
+}
