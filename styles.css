@@ -3,23 +3,27 @@
     padding: 0;
 }
 body{
-    padding: 5vh;
+    /* padding: 5vh; */
     font-family: inter;
+    background-color: hsl(36, 100%, 99%);
 }
 .master{
-    margin: 5vh;
+    margin-left: 25vh;
+    margin-right: 25vh;
 }
 .header{
     display: flex;
-    margin: 10px;
+    /* margin: 10px; */
 }
 .logo{
     margin: 5vh;
+    width: 60%;
+    display: flex;
+    justify-content: flex-start;
 }
 .links{
-    margin-left: 60%;
     display: flex;
-    justify-content: space-between;   
+    justify-content: space-between; 
 } 
 ul {
     float: right;
@@ -34,7 +38,7 @@ ul {
 }
 a{
     text-decoration: none;
-    color: hsl(233, 8%, 79%);
+    color: hsl(236, 13%, 42%);
 }
 .container1{    
     display: grid;
@@ -106,10 +110,10 @@ hr{
     justify-content: center;
     align-items: center;
     align-content: center;
-    /* font-size: 3vh; */
     background-color: hsl(5, 85%, 63%);
     color: hsl(36, 100%, 99%);
 }
+
 .five1 h1{
     margin: 10px;
     color: hsl(236, 13%, 42%);
