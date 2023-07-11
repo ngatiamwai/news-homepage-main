@@ -6,6 +6,7 @@ body{
     /* padding: 5vh; */
     font-family: inter;
     background-color: hsl(36, 100%, 99%);
+    font-size: 15px;
 }
 .master{
     margin-left: 25vh;
@@ -14,6 +15,7 @@ body{
 .header{
     display: flex;
     /* margin: 10px; */
+    align-items: center;
 }
 .logo{
     margin: 5vh;
@@ -36,6 +38,9 @@ ul {
     align-items: center;
     gap: 10%; 
 }
+.logo2{
+    display: none;
+}
 a{
     text-decoration: none;
     color: hsl(236, 13%, 42%);
@@ -46,46 +51,46 @@ a{
     grid-template-areas: "one one two" "three four two" "five six seven";
 }
 .one{
-    margin: 10px;
+    margin: 5px;
     grid-area: one;
 }
 .one img{
-    height: 100%;
+    height: 90%;
     width: 100%;
 }
 .two{
-    margin: 10px;
+    margin: 5px;
     grid-area: two;
     padding: 0px;
     background-color: hsl(240, 100%, 5%);
     color: hsl(36, 100%, 99%);
 }
 .two1{
-    margin: 20px;
-    padding: 20px;
+    margin: 10px;
+    padding: 10px;
 }
 .three{
     font-weight: bolder;
-    margin: 10px;
+    /* margin: 10px; */
     color: hsl(240, 100%, 5%);
     grid-area: three;
 }
 .four{
-    margin: 10px;
+    /* margin: 5px; */
     grid-area: four;
 }
 .five{
-    margin: 10px;
+    margin: 5px;
     grid-area: five;
     display: flex;
 }
 .six{
-    margin: 10px;
+    margin: 5px;
     grid-area: six;
     display: flex;
 }
 .seven{
-    margin: 10px;
+    margin: 5px;
     grid-area: seven;
     display: flex;
 }
@@ -98,11 +103,11 @@ hr{
     margin-bottom: 5vh;
 }
 .four p{
-    padding: 10px;
+    /* padding: 10px; */
 }
 .button{
-    padding: 10px;
-    margin: 10px;
+    padding: 5px;
+    margin: 5px;
     display: flex;
     height: 5vh;
     width: 25vh;
@@ -115,15 +120,48 @@ hr{
 }
 
 .five1 h1{
-    margin: 10px;
+    margin: 5px;
     color: hsl(236, 13%, 42%);
 }
 .five1 h2{
-    margin: 10px;
+    margin: 5px;
     color: hsl(240, 100%, 5%);
     
 }
 .five1 p{
-    margin: 10px;
+    margin: 5px;
     color: hsl(236, 13%, 42%);
+}
+.five img{
+    height: 50%;
+}
+.six img{
+    height: 50%;
+}
+.seven img{
+    height: 50%;
+}
+
+@media screen and (max-width: 800px){
+    .container1 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 100%;
+        width: 100%;
+    }
+    .master{
+        margin-left: 5vh;
+        margin-right: 5vh;
+    }
+    .logo2{
+        display: block;
+    }
+    ul{
+        display: none;
+    }
+    .one{
+        height: 50vh;
+        object-fit: fill;
+    }
 }
